@@ -1,7 +1,8 @@
 # Can-You-Die
 
-A small Puzzle-Game for the [Brackeys Game JAM 2021.2](https://itch.io/jam/brackeys-6) where you have to prevent objects with the same color from touching each other and therefore maintaining chaos.
+CAN YOU DIE? is the question.
+In  this game you need to die to get to the next level. But it's not always easy to die. This game flips the common conception that you have to survive to finish a game.
 
-- Theme: Let there be Chaos.
-- This Game was entirely created in 7 days.
-- The votingresults can be seen [HERE](https://itch.io/jam/brackeys-6/rate/1177927).
+- Theme: FAILURE IS PROGRESS
+- This Game was entirely created in 72hours during the [#WowieJam3](https://itch.io/jam/wowie-jam-3)
+- The votingresults can be seen [HERE](https://itch.io/jam/wowie-jam-3/rate/939332).
