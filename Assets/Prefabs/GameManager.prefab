@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3042641660202976717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3042641660202976706}
+  - component: {fileID: 3042641660202976707}
+  - component: {fileID: 3042641660202976716}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3042641660202976706
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3042641660202976717}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3042641660202976707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3042641660202976717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec81d9e2d23805540a59949b73215b50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMenu: Menu
+  returnToMenuAfterLastLevel: 1
+  settings: {fileID: 2790581247433091672, guid: 94a25688070098741805c03953d605d6,
+    type: 3}
+  mixer: {fileID: 24100000, guid: 6e0d5eb2e5f562b40959e0f6ce6ae789, type: 2}
+  scenesInLoadingOrder:
+  - level1
+  - level2
+  - level3
+  - level4
+  - level5
+  - level6
+  - level7
+  settingsKey: 27
+  deaths: 0
+--- !u!114 &3042641660202976716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3042641660202976717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ecf33cea3c41004fb05fd7e0ac4ef37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 24100000, guid: 6e0d5eb2e5f562b40959e0f6ce6ae789, type: 2}
+  sounds:
+  - name: Click
+    clip: {fileID: 8300000, guid: 22ac0d801a7d9f84e8d0103d8fa592c3, type: 3}
+    audioMixerGroup: {fileID: -3188554729424265794, guid: 6e0d5eb2e5f562b40959e0f6ce6ae789,
+      type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: DeathSound
+    clip: {fileID: 8300000, guid: e87ebcc8bbe7b6e46b5425b8e8ca7f8a, type: 3}
+    audioMixerGroup: {fileID: -3188554729424265794, guid: 6e0d5eb2e5f562b40959e0f6ce6ae789,
+      type: 2}
+    volume: 0.15
+    pitch: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: Plop
+    clip: {fileID: 8300000, guid: e87ebcc8bbe7b6e46b5425b8e8ca7f8a, type: 3}
+    audioMixerGroup: {fileID: -3188554729424265794, guid: 6e0d5eb2e5f562b40959e0f6ce6ae789,
+      type: 2}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Step1
+    clip: {fileID: 8300000, guid: 0c3b857c241919548b8cd92d690b9e80, type: 3}
+    audioMixerGroup: {fileID: -3188554729424265794, guid: 6e0d5eb2e5f562b40959e0f6ce6ae789,
+      type: 2}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: 1abc06950067e1746831858cea35d4ce, type: 3}
+    audioMixerGroup: {fileID: -3010360441863695105, guid: 6e0d5eb2e5f562b40959e0f6ce6ae789,
+      type: 2}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: LevelCompleted
+    clip: {fileID: 8300000, guid: 64fe9acaa5c5374458aab7b5b969a4ea, type: 3}
+    audioMixerGroup: {fileID: -3188554729424265794, guid: 6e0d5eb2e5f562b40959e0f6ce6ae789,
+      type: 2}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Step2
+    clip: {fileID: 8300000, guid: f85cd9e514832c040bf00276289ab9d2, type: 3}
+    audioMixerGroup: {fileID: -3188554729424265794, guid: 6e0d5eb2e5f562b40959e0f6ce6ae789,
+      type: 2}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Step3
+    clip: {fileID: 8300000, guid: 7479e15afb89df349b64bf0ef449aad8, type: 3}
+    audioMixerGroup: {fileID: -3188554729424265794, guid: 6e0d5eb2e5f562b40959e0f6ce6ae789,
+      type: 2}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
