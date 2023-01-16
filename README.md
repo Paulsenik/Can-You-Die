@@ -1,5 +1,8 @@
 # Can-You-Die
 
+
+<img src="/Assets/Sprites/logo.png" width=25%>
+
 CAN YOU DIE? is the question.
 In  this game you need to die to get to the next level. But it's not always easy to die. This game flips the common conception that you have to survive to finish a game.
 
